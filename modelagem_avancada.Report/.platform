@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "modelagem_avancada"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f270e767-8cdd-4f25-a157-dbf03c5ff2f2"
+  }
+}
