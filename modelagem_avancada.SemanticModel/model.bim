@@ -488,111 +488,6 @@
             "summarizeBy": "none"
           },
           {
-            "name": "nacionalidade",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "fdd2238e-60f5-4da9-893a-f4482f7ca0c0",
-            "sourceColumn": "nacionalidade",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "nome_turma",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "7b9d43a3-3085-41a5-b267-cb20c6ee238c",
-            "sourceColumn": "nome_turma",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "modalidade_turma",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "c235dd24-969c-4933-9233-f1b465596fa4",
-            "sourceColumn": "modalidade_turma",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "nome_curso",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "caa9aad8-e49f-4bd9-80ec-165d6602c0ec",
-            "sourceColumn": "nome_curso",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "carga_horaria",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "71cabbdc-25a0-46f9-af60-bd57fde0723c",
-            "sourceColumn": "carga_horaria",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "instituicao",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "9255ec22-293d-48d3-b875-131130da8120",
-            "sourceColumn": "instituicao",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "municipio_pessoa",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "e1fcdb6a-ff3a-4b9e-a4a2-2fff995fa960",
-            "sourceColumn": "municipio_pessoa",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "uf_pessoa",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "a59f2199-6b69-4d57-b429-2deafe682a8d",
-            "sourceColumn": "uf_pessoa",
-            "summarizeBy": "none"
-          },
-          {
             "name": "conteudista",
             "annotations": [
               {
@@ -603,19 +498,6 @@
             "dataType": "string",
             "lineageTag": "61726b90-40f3-44f5-a0b1-85766af46d70",
             "sourceColumn": "conteudista",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "tematica",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "4da4cd51-d12c-4e27-9b89-a8b8ff5aea8c",
-            "sourceColumn": "tematica",
             "summarizeBy": "none"
           },
           {
@@ -630,98 +512,6 @@
             "formatString": "0",
             "lineageTag": "a01f73c6-fd84-4364-b270-c8b0a067c0fa",
             "sourceColumn": "cod_curso",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "sexo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "fa48afdf-4540-40db-93e1-1de94dc523be",
-            "sourceColumn": "sexo",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "idade",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "d5176f6c-2ec4-443d-a68c-fd05b2e52d66",
-            "sourceColumn": "idade",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "poder",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "55fc1b4e-4fc0-45bb-913e-bfb19877215b",
-            "sourceColumn": "poder",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "esfera",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "a45d3bf5-6c7c-4ee1-a273-7efa9d389ba5",
-            "sourceColumn": "esfera",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "email_pessoa",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "cae458ea-30c9-43c2-98af-e0f0aa7c7dd4",
-            "sourceColumn": "email_pessoa",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "telefone_pessoa",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "ff63ee69-5b9f-4b7d-83b1-062348238d46",
-            "sourceColumn": "telefone_pessoa",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "email_conteudista",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "d8d69d96-d3e2-4fa9-97c3-7414995c0838",
-            "sourceColumn": "email_conteudista",
             "summarizeBy": "none"
           },
           {
@@ -806,9 +596,10 @@
                 "    #\"Expanded DimEndereco\" = Table.ExpandTableColumn(#\"Merged Queries3\", \"DimEndereco\", {\"cod_endereco\"}, {\"cod_endereco\"}),",
                 "    #\"Merged Queries4\" = Table.NestedJoin(#\"Expanded DimEndereco\", {\"tematica\"}, DimTematica, {\"tematica\"}, \"DimTematica\", JoinKind.LeftOuter),",
                 "    #\"Expanded DimTematica\" = Table.ExpandTableColumn(#\"Merged Queries4\", \"DimTematica\", {\"cod_tematica\"}, {\"cod_tematica\"}),",
-                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Expanded DimTematica\",{\"DimConteudista\"})",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Expanded DimTematica\",{\"DimConteudista\"}),",
+                "    #\"Removed Other Columns\" = Table.SelectColumns(#\"Removed Columns\",{\"cod_matricula\", \"dt_matricula\", \"dt_fim\", \"sit_matricula\", \"sit_turma\", \"cod_turma\", \"conteudista\", \"cod_curso\", \"codigo_pessoa\", \"cod_instituicao\", \"cod_esfera\", \"cod_endereco\", \"cod_tematica\"})",
                 "in",
-                "    #\"Removed Columns\""
+                "    #\"Removed Other Columns\""
               ],
               "type": "m"
             }
