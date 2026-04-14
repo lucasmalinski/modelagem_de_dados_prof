@@ -39,27 +39,6 @@
   "sections": [
     {
       "config": "{}",
-      "displayName": "Território",
-      "displayOption": 1,
-      "filters": "[]",
-      "height": 720.00,
-      "name": "c016051d0491bab0cad6",
-      "ordinal": 1,
-      "visualContainers": [
-        {
-          "config": "{\"name\":\"1dbae876abca50905c69\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.753694581280788,\"y\":0,\"z\":0,\"width\":1270.64039408867,\"height\":84.23645320197045,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}]}]}}]}}}",
-          "filters": "[]",
-          "height": 84.24,
-          "width": 1270.64,
-          "x": 9.75,
-          "y": 0.00,
-          "z": 0.00
-        }
-      ],
-      "width": 1280.00
-    },
-    {
-      "config": "{}",
       "displayName": "Visão Geral",
       "displayOption": 1,
       "filters": "[]",
